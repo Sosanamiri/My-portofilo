@@ -1,0 +1,49 @@
+@import url(https://fontawesome.com/);
+{ 
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:"Poppins", sans-serif;
+}
+body{
+    height: 100vh;
+    background:url(website.webp) no-repeat center/ cover;
+
+}
+.hero{
+    position: relative;
+    height: 100%;
+    background: lightskyblue;
+    border-radius: 30px;
+}
+header{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 25px 5%;
+    background: darkblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+ul li{
+    display: flex;
+    top: 100%;
+    bottom:0;
+    gap: 20px;
+    align-items: center;
+    padding: 0 0;
+    list-style: none;
+    font-weight: bold;
+}
+div class{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 20px;
+    position: absolute
+
+
+}
