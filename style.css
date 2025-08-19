@@ -1,48 +1,70 @@
-@import url(https://fontawesome.com/);
-{ 
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-    font-family:"Poppins", sans-serif;
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    background: linear-gradient( to right, aqua,)
 }
-body{
-    height: 100vh;
-    background:url(website.webp) no-repeat center/ cover;
 
-}
-.hero{
-    position: relative;
-    height: 100%;
-    background: lightskyblue;
-    border-radius: 30px;
-}
-header{
+.navbar {
+    background-color: lemonchiffon;
+    padding: 10px;
     position: relative;
     top: 0;
     left: 0;
-    width: 100%;
-    padding: 25px 5%;
-    background: darkblue;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 100;
 }
-nav ul li{
-    display: flex;
-    top: 100%;
-    bottom:0;
-    gap: 20px;
-    align-items: center;
-    padding: 0 0;
+
+.navbar ul {
     list-style: none;
-    font-weight: bold;
-}
- nav ul a {
+    margin: 0;
+    padding: 0;
+    display: flex;           
+    justify-content: center; 
+    gap: 20px;       
     text-decoration: none;
-    color: black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
+    color: blue;
+    font-weight: bold;
+    transition: 0.3s;       
+}
+
+
+.navbar ul li a {
+    text-decoration: none;
+    color: black;  
+    padding:5 px 10px;
+    transition: all 0.3 ease;
+}
+.navbar ul li a :hover{ 
+    color: blue;
+background-color:brown;
+    
+
+}
+.about{
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 10px 20px;
+    background: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px ( brown,0,0,0,0.3;)
+    line-height: 1.8;
+    font-size: 18px;
+    color: #333;
+    
+    
+}
+P{
+    font-size: 15px;
+}
+.profile-img{
+
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px ;
+    rgba( 0,0,0,0,4)
+    border: 3px solid #000;
+    
+
+
 }
